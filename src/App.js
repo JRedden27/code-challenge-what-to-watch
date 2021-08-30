@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./components/Header";
+import Container from "./components/Container";
+import MovieCard from "./components/MovieCard";
+import MovieData from "./data.json";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Container title="Current Search">
+        <MovieCard
+          title={MovieData.Title}
+          description={MovieData.Plot}
+          img={MovieData.Poster}
+          date={MovieData.Released}
+          rating={MovieData.imdbRating}
+          updated="3 mins ago"
+        />
+      </Container>
+      <Container title="Previous 3 Searches" />
     </div>
   );
 }
