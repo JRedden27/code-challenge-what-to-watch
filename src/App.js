@@ -5,18 +5,20 @@ import MovieData from "./data.json";
 import axios from "axios";
 
 function App() {
-  const getData = () => {
-    axios.get("http://www.omdbapi.com/?apikey=ab4daebf&").then((response) => {
-      console.log(response);
-    });
+  const searchHandler = () => {
+    axios
+      .get(
+        `http://www.omdbapi.com/?apikey=ab4daebf&t=${MovieData.Movies[0].Title}`
+      )
+      .then((response) => {
+        console.log(response);
+      });
   };
 
-  getData();
   return (
     <div className="App">
-      <Header />
+      <Header onSearch={searchHandler} />
       <Container title="Current Search">
-        {/* {MovieData.Movies.map((movie) => ( */}
         <MovieCard
           title={MovieData.Movies[0].Title}
           description={MovieData.Movies[0].Plot}
@@ -25,11 +27,11 @@ function App() {
           rating={MovieData.Movies[0].imdbRating}
           updated="3 mins ago"
         />
-        {/* ))} */}
       </Container>
       <Container title="Previous 3 Searches">
         {MovieData.Movies.map((movie) => (
           <MovieCard
+            key={Math.random()}
             title={movie.Title}
             description={movie.Plot}
             img={movie.Poster}

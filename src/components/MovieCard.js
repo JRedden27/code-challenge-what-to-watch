@@ -2,11 +2,14 @@ import React from "react";
 
 const MovieCard = (props) => {
   return (
-    <div className="d-flex border" style={{ height: "15rem", width: "400px" }}>
+    <div
+      className="d-flex border mx-3"
+      style={{ height: "15rem", width: "385px" }}
+    >
       <div className="flex-shrink-0">
         <img src={props.img} alt="..." style={{ height: "100%" }} />
       </div>
-      <div className="flex-grow-1 m-3">
+      <div className="flex-grow-1 m-2">
         <p className="fw-bold" style={{ fontSize: 12 }}>
           {props.title}
         </p>
