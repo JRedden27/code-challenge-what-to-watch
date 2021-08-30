@@ -1,40 +1,104 @@
 {
-  "Title": "Guardians of the Galaxy Vol. 2",
-  "Year": "2017",
-  "Rated": "PG-13",
-  "Released": "05 May 2017",
-  "Runtime": "136 min",
-  "Genre": "Action, Adventure, Comedy",
-  "Director": "James Gunn",
-  "Writer": "James Gunn, Dan Abnett, Andy Lanning",
-  "Actors": "Chris Pratt, Zoe Saldana, Dave Bautista",
-  "Plot": "The Guardians struggle to keep together as a team while dealing with their personal family issues, notably Star-Lord's encounter with his father the ambitious celestial being Ego.",
-  "Language": "English",
-  "Country": "United States",
-  "Awards": "Nominated for 1 Oscar. 15 wins & 58 nominations total",
-  "Poster": "https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_SX300.jpg",
-  "Ratings": [
+  "Movies": [
     {
-      "Source": "Internet Movie Database",
-      "Value": "7.6/10"
+      "Title": "Guardians of the Galaxy Vol. 2",
+      "Year": "2017",
+      "Rated": "PG-13",
+      "Released": "05 May 2017",
+      "Runtime": "136 min",
+      "Genre": "Action, Adventure, Comedy",
+      "Director": "James Gunn",
+      "Writer": "James Gunn, Dan Abnett, Andy Lanning",
+      "Actors": "Chris Pratt, Zoe Saldana, Dave Bautista",
+      "Plot": "The Guardians struggle to keep together as a team while dealing with their personal family issues, notably Star-Lord's encounter with his father the ambitious celestial being Ego.",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "Nominated for 1 Oscar. 15 wins & 58 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_SX300.jpg",
+      "Ratings": [
+        {
+          "Source": "Internet Movie Database",
+          "Value": "7.6/10"
+        },
+        {
+          "Source": "Rotten Tomatoes",
+          "Value": "85%"
+        },
+        {
+          "Source": "Metacritic",
+          "Value": "67/100"
+        }
+      ],
+      "Metascore": "67",
+      "imdbRating": "7.6",
+      "imdbVotes": "600,709",
+      "imdbID": "tt3896198",
+      "Type": "movie",
+      "DVD": "10 Jul 2017",
+      "BoxOffice": "$389,813,101",
+      "Production": "Marvel Studios, Walt Disney Pictures",
+      "Website": "N/A",
+      "Response": "True"
     },
     {
-      "Source": "Rotten Tomatoes",
-      "Value": "85%"
+      "Title": "Spider-Man: Into the Spider-Verse",
+      "Year": "2018",
+      "Rated": "PG",
+      "Released": "14 Dec 2018",
+      "Runtime": "117 min",
+      "Genre": "Animation, Action, Adventure",
+      "Director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+      "Writer": "Phil Lord, Rodney Rothman",
+      "Actors": "Shameik Moore, Jake Johnson, Hailee Steinfeld",
+      "Plot": "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
+      "Language": "English, Spanish",
+      "Country": "United States",
+      "Awards": "Won 1 Oscar. 81 wins & 58 nominations total",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_SX300.jpg",
+      "Ratings": [
+        { "Source": "Internet Movie Database", "Value": "8.4/10" },
+        { "Source": "Metacritic", "Value": "87/100" }
+      ],
+      "Metascore": "87",
+      "imdbRating": "8.4",
+      "imdbVotes": "421,330",
+      "imdbID": "tt4633694",
+      "Type": "movie",
+      "DVD": "19 Mar 2019",
+      "BoxOffice": "$190,241,310",
+      "Production": "Lord Miller, Sony Pictures Animation, Pascal Pictures, Avi Arad",
+      "Website": "N/A",
+      "Response": "True"
     },
     {
-      "Source": "Metacritic",
-      "Value": "67/100"
+      "Title": "Birdemic: Shock and Terror",
+      "Year": "2010",
+      "Rated": "Not Rated",
+      "Released": "27 Feb 2010",
+      "Runtime": "105 min",
+      "Genre": "Horror, Thriller",
+      "Director": "James Nguyen",
+      "Writer": "James Nguyen",
+      "Actors": "Alan Bagh, Whitney Moore, Tippi Hedren",
+      "Plot": "A platoon of eagle & vultures attack the residence of a small town. Many people died. It's not known what caused the flying menace to attack. Two people managed to fight back, but will they survive Birdemic?",
+      "Language": "English",
+      "Country": "United States",
+      "Awards": "N/A",
+      "Poster": "https://m.media-amazon.com/images/M/MV5BZTMyNmM1ODYtZmU3OS00NWIwLTg0MWEtNDExY2NlMzYzNTQ4XkEyXkFqcGdeQXVyNzMzMjU5NDY@._V1_SX300.jpg",
+      "Ratings": [
+        { "Source": "Internet Movie Database", "Value": "1.8/10" },
+        { "Source": "Rotten Tomatoes", "Value": "18%" }
+      ],
+      "Metascore": "N/A",
+      "imdbRating": "1.8",
+      "imdbVotes": "22,300",
+      "imdbID": "tt1316037",
+      "Type": "movie",
+      "DVD": "18 Aug 2016",
+      "BoxOffice": "N/A",
+      "Production": "Expedition Films, Moviehead Pictures",
+      "Website": "N/A",
+      "Response": "True"
     }
-  ],
-  "Metascore": "67",
-  "imdbRating": "7.6",
-  "imdbVotes": "600,709",
-  "imdbID": "tt3896198",
-  "Type": "movie",
-  "DVD": "10 Jul 2017",
-  "BoxOffice": "$389,813,101",
-  "Production": "Marvel Studios, Walt Disney Pictures",
-  "Website": "N/A",
-  "Response": "True"
+  ]
 }
